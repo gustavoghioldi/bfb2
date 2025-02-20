@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+</html>
+<script>
+    const mayorEdad = 190;
+    const edad = prompt("edad: ");
+
+    if (edad >= 18) {
+        if (edad >= 70 && edad < 190) {
+            console.log("es un aduto mayor");
+        } else {
+            console.log("Es adulto"); // si retorna true
+        }
+        
+    }
+    // if (edad >= 18 && edad < 70) {
+    //     console.log("Es adulto"); // si retorna true
+    // }
+
+    // if (edad >= 70 ) {
+    //     console.log("es un aduto mayor");
+    // }
+    
+    if (edad < 18 && edad >=12) { // && representa a Y
+        console.log("es adlecente")
+    }
+    if (edad < 12) {
+        console.log("es un niño");
+    }
+
+    if (edad < 0 || edad > mayorEdad) { // || representa a: O
+        console.log("dato ingresado erroneo");
+    }
+    
+</script>
