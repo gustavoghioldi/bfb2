@@ -1,0 +1,4 @@
+- API https://jsonplaceholder.typicode.com
+- Recomendaciones:  
+        - descargar e instalar APIDOG 
+        - descargar e instalar git
