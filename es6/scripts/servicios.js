@@ -21,6 +21,8 @@ class User {
     get me() {
         return fetch(`https://jsonplaceholder.typicode.com/users/${this._userId}`)
             .then(response => {
+                console.log(`status: ${response.status}`
+                );
                 return response.json()
             })
             .then(function(json) {
